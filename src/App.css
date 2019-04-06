@@ -1,0 +1,46 @@
+.pendu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 420px;
+  margin: auto;
+  user-select: none;
+}
+
+.clavier {
+  display: flex;
+  flex-wrap: wrap;
+  width: 420px;
+  margin: auto;
+  user-select: default;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3em;
+  width: 400px;
+  margin: auto;
+  color: green;
+  user-select: default;
+}
+
+.clavier > .letter {
+  font-size: 2em;
+  margin: 0.2em;
+  border: 0.2em;
+  display: flex;
+  cursor: default;
+}
+
+.clavier > .letter.enable {
+  background: silver;
+}
+
+.clavier > .letter.disabled {
+  cursor: not-allowed;
+  color: red;
+}
+
+.clavier > .letter.hidden {
+  visibility: collapse;
+}

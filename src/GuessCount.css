@@ -1,0 +1,19 @@
+.pendu > .guesses.hidden {
+  font-size: 3em;
+  color: green;
+  width: calc(100% - 0.4em);
+  margin: 0.2em;
+  text-align: center;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+  visibility:collapse
+}
+
+.pendu > .guesses.visible {
+  font-size: 3em;
+  color: green;
+  width: calc(100% - 0.4em);
+  margin: 0.2em;
+  text-align: center;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+  visibility:visible
+}
