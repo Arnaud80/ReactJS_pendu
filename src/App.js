@@ -4,6 +4,7 @@ import GuessCount from './GuessCount'
 import PropTypes from 'prop-types'
 
 import './App.css'
+import './Clavier.css'
 
 const WORDS = ['SALUT', 'ANGES', 'ALBUM', 'BONJOUR', 'HELLO  WORLD']
 const LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ']
